@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Utsav House — premium event planning, weddings, corporate events and catering.">
+  <title>Contact | Utsav House</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body data-page="contact">
+
+<div class="topbar">
+  <div class="container">
+    <div>Curating memorable moments across Jaipur & beyond</div>
+    <div class="topbar-right"><span>☎ +91 73002 46233</span><span>✉ hello@utsavhouse.com</span></div>
+  </div>
+</div>
+<header class="navbar">
+  <div class="container nav-inner">
+    <a class="logo" href="index.html"><span class="logo-mark">U</span> Utsav House</a>
+    <button class="menu-toggle" aria-label="Open navigation">☰</button>
+    <nav class="nav-links">
+      <a data-page="home" href="index.html">Home</a>
+      <a data-page="services" href="services.html">Services</a>
+      <a data-page="gallery" href="gallery.html">Gallery</a>
+      <a data-page="blog" href="blog.html">Blog</a>
+      <a data-page="contact" href="contact.html">Contact</a>
+    </nav>
+    <a class="nav-cta" href="contact.html">Plan Your Event</a>
+  </div>
+</header>
+
+
+<main>
+<section class="page-hero"><div class="container">
+  <div class="breadcrumb"><a href="index.html">Home</a> / Contact</div>
+  <div class="kicker">Let's talk</div>
+  <h1>Tell us what you’re celebrating.</h1>
+  <p>Share a few details and we’ll shape the right planning approach for your event.</p>
+</div></section>
+<section class="section">
+  <div class="container split">
+    <div class="card contact-card">
+      <h2 style="font:600 40px 'Playfair Display',serif;">Start your enquiry</h2>
+      <p class="muted" style="margin:10px 0 28px;">Tell us about your event and our team will get in touch.</p>
+      <form id="contactForm" action="https://formspree.io/f/xwlprpze" method="POST">
+        <div class="form-grid">
+          <div class="field"><label for="enquiry-name">Name</label><input id="enquiry-name" name="name" autocomplete="name" required placeholder="Your name"></div>
+          <div class="field"><label for="enquiry-phone">Phone</label><input id="enquiry-phone" name="phone" type="tel" autocomplete="tel" required placeholder="+91 XXXXX XXXXX"></div>
+          <div class="field"><label for="enquiry-email">Email</label><input id="enquiry-email" name="email" type="email" autocomplete="email" required placeholder="you@example.com"></div>
+          <div class="field"><label for="enquiry-event">Event type</label><select id="enquiry-event" name="event_type"><option>Wedding Planning</option><option>Corporate Events</option><option>Catering Service</option><option>Other</option></select></div>
+          <div class="field full"><label for="enquiry-details">Event details</label><textarea id="enquiry-details" name="message" placeholder="Date, city, approximate guest count, venue, budget range and anything else you already know."></textarea></div>
+          <div class="field full"><button class="btn" type="submit">Send Enquiry →</button></div>
+        </div>
+      </form>
+      <div class="notice" id="formNotice" role="status" aria-live="polite" aria-atomic="true"></div>
+    </div>
+    <div>
+      <div class="kicker">Contact information</div>
+      <h2 style="font:600 46px 'Playfair Display',serif;">Let’s make the next event your favourite one.</h2>
+      <div class="contact-row"><div class="contact-icon">☎</div><div><strong>Phone</strong><span>+91 73002 46233</span></div></div>
+      <div class="contact-row"><div class="contact-icon">✉</div><div><strong>Email</strong><span>hello@utsavhouse.com</span></div></div>
+      <div class="contact-row"><div class="contact-icon">⌖</div><div><strong>Studio</strong><span>Jaipur, Rajasthan, India</span></div></div>
+      <div class="contact-row"><div class="contact-icon">◎</div><div><strong>Social</strong><span>Instagram • Facebook • YouTube • LinkedIn</span></div></div>
+    </div>
+  </div>
+</section>
+</main>
+
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <a class="logo" href="index.html"><span class="logo-mark">U</span> Utsav House</a>
+        <p style="margin-top:15px;max-width:330px;">Thoughtful event planning, elegant production, and warm hospitality for celebrations that deserve to be remembered.</p>
+        <div class="socials">
+          <a href="#" aria-label="Instagram">IG</a>
+          <a href="#" aria-label="Facebook">FB</a>
+          <a href="#" aria-label="YouTube">YT</a>
+          <a href="#" aria-label="LinkedIn">IN</a>
+        </div>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <div class="footer-links">
+          <a href="index.html">Home</a>
+          <a href="services.html">Services</a>
+          <a href="gallery.html">Gallery</a>
+          <a href="blog.html">Blog</a>
+          <a href="contact.html">Contact</a>
+        </div>
+      </div>
+      <div>
+        <h4>Services</h4>
+        <div class="footer-links">
+          <a href="corporate-events.html">Corporate Events</a>
+          <a href="weddings.html">Wedding Planning</a>
+          <a href="catering.html">Catering Service</a>
+        </div>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <div class="footer-links">
+          <a href="tel:7300246233">+91 73002 46233</a>
+          <a href="mailto:hello@utsavhouse.com">hello@utsavhouse.com</a>
+          <span>Jaipur, Rajasthan, India</span>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">© <span id="year"></span> Utsav House. All rights reserved. Replace placeholder contact/social links with your official details.</div>
+  </div>
+</footer>
+<script src="assets/script.js"></script>
+
+</body>
+</html>
